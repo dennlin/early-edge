@@ -408,13 +408,6 @@ The following pivot table displays win rates by combinations of objectives secur
 #### Correlation Matrix: Tempo vs. Value Objectives
 The correlation matrix quantifies relationships between tempo objectives (void grubs, heralds), value objectives (dragon soul, dragons, elders), and outcomes (towers, win rates).
 
-<iframe
-  src="assets/tempo_vs_value_obj.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
-
 | **Metric**       | **Void Grubs** | **Heralds** | **Dragon Soul** | **Dragons** | **Towers** | **Elders** |
 |-------------------|----------------|-------------|-----------------|-------------|------------|------------|
 | **Void Grubs**    | 1.00           | 0.21        | -0.08           | -0.07       | 0.22       | -0.03      |
