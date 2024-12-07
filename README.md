@@ -173,7 +173,7 @@ Winning teams (`True`) secure more void grubs on average (3.08) than losing team
 The bar plot below shows the relationship between dragon soul presence and game result.
 
 <iframe
-  src="assets/soul_sec_result.html"
+  src="assets/soul_sec.html"
   width="800"
   height="600"
   frameborder="0"
