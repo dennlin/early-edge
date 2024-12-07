@@ -84,18 +84,14 @@ The data cleaning process ensured the dataset was free from missing values, irre
 ---
 
 #### **Cleaned DataFrame (Head)**
+| Game ID           | League | Year | Date                | Team Name          | Side   | Result | Kills | Dragons | Heralds | Towers | Game Length (mins) |
+|-------------------|--------|------|---------------------|--------------------|--------|--------|-------|---------|---------|--------|--------------------|
+| LOLTMNT99_132542  | TSC    | 2024 | 2024-01-05 14:08   | BoostGate Esports  | Blue   | Win    | 20    | 2       | 1       | 9      | 24.1               |
+| LOLTMNT99_132542  | TSC    | 2024 | 2024-01-05 14:08   | Dark Passage       | Red    | Loss   | 7     | 1       | 0       | 1      | 24.1               |
+| LOLTMNT99_132665  | TSC    | 2024 | 2024-01-05 15:03   | Unknown Team       | Blue   | Win    | 31    | 2       | 0       | 8      | 35.4               |
+| LOLTMNT99_132665  | TSC    | 2024 | 2024-01-05 15:03   | Unknown Team       | Red    | Loss   | 20    | 3       | 1       | 8      | 35.4               |
+| LOLTMNT99_132755  | TSC    | 2024 | 2024-01-05 16:10   | Unknown Team       | Blue   | Win    | 24    | 2       | 1       | 9      | 34.9               |
 
-<div style="overflow-x: auto;">
-| Game ID           | League     | Year | Date                | Team Name          | Side   | Bans                 | Picks                | Result | Kills | Deaths | Assists | Dragons | Heralds | Towers | Game Length (mins) |
-|-------------------|------------|------|---------------------|--------------------|--------|----------------------|----------------------|--------|-------|--------|---------|---------|---------|--------|--------------------|
-| LOLTMNT99_132542  | TSC        | 2024 | 2024-01-05 14:08   | BoostGate Esports  | Blue   | Orianna, Rell, Viego | LeBlanc, Varus       | Win    | 20    | 7      | 47      | 2       | 1       | 9      | 24.1               |
-| LOLTMNT99_132542  | TSC        | 2024 | 2024-01-05 14:08   | Dark Passage       | Red    | Rumble, Ashe, Nocturne| Kalista, Neeko       | Loss   | 7     | 20     | 14      | 1       | 0       | 1      | 24.1               |
-| LOLTMNT99_132665  | TSC        | 2024 | 2024-01-05 15:03   | Unknown Team       | Blue   | Jarvan, Nocturne     | Karthus, Jax         | Win    | 31    | 20     | 60      | 2       | 0       | 8      | 35.4               |
-| LOLTMNT99_132665  | TSC        | 2024 | 2024-01-05 15:03   | Unknown Team       | Red    | Akshan, Neeko, Akali | Elise, Syndra        | Loss   | 20    | 31     | 23      | 3       | 1       | 8      | 35.4               |
-| LOLTMNT99_132755  | TSC        | 2024 | 2024-01-05 16:10   | Unknown Team       | Blue   | Nocturne, Kalista    | Aatrox, Lee Sin      | Win    | 24    | 8      | 54      | 2       | 1       | 9      | 34.9               |
-
-
-</div>
 
 
 ### Univariate Analysis: Distribution of Key Objectives
@@ -589,12 +585,39 @@ This baseline model establishes a strong foundation for refining predictions of 
   - A 5-fold cross-validation was performed on the training set to identify the best hyperparameters, optimizing for the F1-score to balance precision and recall.
 
 #### Performance Comparison
-| Metric             | Baseline Model | Final Model |
-|---------------------|----------------|-------------|
-| Training Accuracy   | 100%           | 95%         |
-| Test Accuracy       | 97%            | 92%         |
-| Training F1-Score   | 1.00           | 0.95        |
-| Test F1-Score       | 0.97           | 0.92        |
+
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Baseline Model</th>
+      <th>Final Model</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Training Accuracy</td>
+      <td>100%</td>
+      <td>95%</td>
+    </tr>
+    <tr>
+      <td>Test Accuracy</td>
+      <td>97%</td>
+      <td>92%</td>
+    </tr>
+    <tr>
+      <td>Training F1-Score</td>
+      <td>1.00</td>
+      <td>0.95</td>
+    </tr>
+    <tr>
+      <td>Test F1-Score</td>
+      <td>0.97</td>
+      <td>0.92</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
