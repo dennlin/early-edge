@@ -84,13 +84,97 @@ The data cleaning process ensured the dataset was free from missing values, irre
 ---
 
 #### **Cleaned DataFrame (Head)**
-| Game ID           | League | Year | Date                | Team Name          | Side   | Result | Kills | Dragons | Heralds | Towers | Game Length (mins) |
-|-------------------|--------|------|---------------------|--------------------|--------|--------|-------|---------|---------|--------|--------------------|
-| LOLTMNT99_132542  | TSC    | 2024 | 2024-01-05 14:08   | BoostGate Esports  | Blue   | Win    | 20    | 2       | 1       | 9      | 24.1               |
-| LOLTMNT99_132542  | TSC    | 2024 | 2024-01-05 14:08   | Dark Passage       | Red    | Loss   | 7     | 1       | 0       | 1      | 24.1               |
-| LOLTMNT99_132665  | TSC    | 2024 | 2024-01-05 15:03   | Unknown Team       | Blue   | Win    | 31    | 2       | 0       | 8      | 35.4               |
-| LOLTMNT99_132665  | TSC    | 2024 | 2024-01-05 15:03   | Unknown Team       | Red    | Loss   | 20    | 3       | 1       | 8      | 35.4               |
-| LOLTMNT99_132755  | TSC    | 2024 | 2024-01-05 16:10   | Unknown Team       | Blue   | Win    | 24    | 2       | 1       | 9      | 34.9               |
+<table>
+  <thead>
+    <tr>
+      <th>Game ID</th>
+      <th>League</th>
+      <th>Year</th>
+      <th>Date</th>
+      <th>Team Name</th>
+      <th>Side</th>
+      <th>Result</th>
+      <th>Kills</th>
+      <th>Dragons</th>
+      <th>Heralds</th>
+      <th>Towers</th>
+      <th>Game Length (mins)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LOLTMNT99_132542</td>
+      <td>TSC</td>
+      <td>2024</td>
+      <td>2024-01-05 14:08</td>
+      <td>BoostGate Esports</td>
+      <td>Blue</td>
+      <td>Win</td>
+      <td>20</td>
+      <td>2</td>
+      <td>1</td>
+      <td>9</td>
+      <td>24.1</td>
+    </tr>
+    <tr>
+      <td>LOLTMNT99_132542</td>
+      <td>TSC</td>
+      <td>2024</td>
+      <td>2024-01-05 14:08</td>
+      <td>Dark Passage</td>
+      <td>Red</td>
+      <td>Loss</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>24.1</td>
+    </tr>
+    <tr>
+      <td>LOLTMNT99_132665</td>
+      <td>TSC</td>
+      <td>2024</td>
+      <td>2024-01-05 15:03</td>
+      <td>Unknown Team</td>
+      <td>Blue</td>
+      <td>Win</td>
+      <td>31</td>
+      <td>2</td>
+      <td>0</td>
+      <td>8</td>
+      <td>35.4</td>
+    </tr>
+    <tr>
+      <td>LOLTMNT99_132665</td>
+      <td>TSC</td>
+      <td>2024</td>
+      <td>2024-01-05 15:03</td>
+      <td>Unknown Team</td>
+      <td>Red</td>
+      <td>Loss</td>
+      <td>20</td>
+      <td>3</td>
+      <td>1</td>
+      <td>8</td>
+      <td>35.4</td>
+    </tr>
+    <tr>
+      <td>LOLTMNT99_132755</td>
+      <td>TSC</td>
+      <td>2024</td>
+      <td>2024-01-05 16:10</td>
+      <td>Unknown Team</td>
+      <td>Blue</td>
+      <td>Win</td>
+      <td>24</td>
+      <td>2</td>
+      <td>1</td>
+      <td>9</td>
+      <td>34.9</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
