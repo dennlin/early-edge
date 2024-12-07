@@ -92,7 +92,7 @@ The data cleaning process ensured the dataset was free from missing values, irre
 Below is a histogram displaying the exact number of dragons secured across all games.
 
 <iframe
-  src="../assets/drag_sec.html"
+  src="assets/drag_sec.html"
   width="800"
   height="600"
   frameborder="0"
@@ -107,7 +107,7 @@ The histogram shows that most teams secure between 1 and 4 dragons per game, wit
 Below is a histogram displaying the exact number of void grubs collected across all games.
 
 <iframe
-  src="../assets/void_sec.html"
+  src="assets/void_sec.html"
   width="800"
   height="600"
   frameborder="0"
@@ -121,7 +121,7 @@ The histogram shows that most teams collect 3 or 6 void grubs in a game. Collect
 Below is a bar chart displaying the proportion of games in which each first objective (first dragon, first herald, first tower, first baron, and optionally first grub) was secured.
 
 <iframe
-  src="../assets/first_obj.html"
+  src="assets/first_obj.html"
   width="800"
   height="600"
   frameborder="0"
