@@ -225,6 +225,19 @@ The table below summarizes dragon soul presence by game length:
   frameborder="0"
 ></iframe>
 
+| Game Length        | Dragon Soul Presence | Count |
+|--------------------|-----------------------|-------|
+| Short              | False                |    34 |
+| Short              | True                 |     0 |
+| Moderately Short   | False                |  4444 |
+| Moderately Short   | True                 |   534 |
+| Average            | False                |  7564 |
+| Average            | True                 |  2032 |
+| Moderately Long    | False                |  1162 |
+| Moderately Long    | True                 |   700 |
+| Long               | False                |    86 |
+| Long               | True                 |    50 |
+
 Shorter games (under 20 minutes) rarely result in dragon soul acquisition, while average and moderately long games (20–40 minutes) show a higher frequency of dragon soul presence among winning teams. Longer games (over 40 minutes) appear to result in fewer dragon souls, suggesting the importance of tempo-focused objectives like void grubs in those cases.
 
 ---
