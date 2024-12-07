@@ -582,7 +582,10 @@ This baseline model establishes a strong foundation for refining predictions of 
 #### Confusion Matrix for Final Model
 Below is the confusion matrix for the Final Model on the test set:
 
-
+|             | Predicted Negative | Predicted Positive |
+|-------------|--------------------:|--------------------:|
+| **Actual Negative** | 1525               | 136                |
+| **Actual Positive** | 122                | 1539               |
 
 - The model shows balanced precision and recall for both classes, with minimal misclassifications, indicating robust generalization.
 
