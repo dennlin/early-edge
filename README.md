@@ -4,9 +4,9 @@ This project is a comprehensive data-driven exploration of objective prioritizat
 
 Author: Dennis Lin
 
-## Introduction and Question Identification
+## Introduction
 
-#### **Introduction**
+#### **General Introduction**
 
 League of Legends, a dynamic and evolving game, has seen its win conditions and strategies shift drastically over the years. Objectives such as dragons, Rift Heralds, and the newly introduced void grubs each contribute uniquely to a team’s path to victory. By 2024, the professional meta began emphasizing tempo-driven strategies, prioritizing topside objectives like Heralds and void grubs over the traditionally valued dragon stacking.
 
@@ -44,7 +44,9 @@ This analysis seeks to answer the following question:
 
 By focusing on these columns, we can explore the relationships between these objectives and game outcomes to evaluate the validity of our coach’s strategy.
 
-## Data Cleaning
+## Data Cleaning and Exploratory Data Analysis
+
+### Data Cleaning
 
 #### **Steps Taken**
 
@@ -95,7 +97,7 @@ The data cleaning process ensured the dataset was free from missing values, irre
 </div>
 
 
-## Univariate Analysis: Distribution of Key Objectives
+### Univariate Analysis: Distribution of Key Objectives
 
 #### **Visualization: Distribution of Dragons Secured**
 Below is a histogram displaying the exact number of dragons secured across all games.
@@ -352,7 +354,7 @@ These analyses support the hypothesis that tempo-based objectives (void grubs an
 This interplay emphasizes the adaptability required in professional play, showcasing how tempo and value objectives synergize to optimize win conditions.
 
 
-### Imputation Technique: `split` Column
+### Imputation
 
 #### Description of Data
 The `split` column represents categorical data corresponding to competitive splits and events, such as `Winter`, `Spring`, `Summer`, etc.
@@ -392,7 +394,7 @@ The increase in the `Summer` category reflects the imputed values.
 
 ---
 
-### Conclusion
+### Answering The Question
 
 #### Summary of Findings
 This analysis of professional League of Legends matches in the 2024 meta reveals key insights into how tempo-based and value-based objectives influence game outcomes. By examining aggregated statistics, bivariate relationships, and pivot tables, we identified trends that highlight the interplay between these objective types:
@@ -445,7 +447,7 @@ The findings strongly support the hypothesis that tempo-based objectives are mor
 By focusing on tempo objectives for early dominance and leveraging value objectives when opportunities arise, teams can adapt to the 2024 professional meta and optimize their chances of success.
 
 
-### Prediction Problem
+## Framing a Prediction Problem
 
 #### Problem Statement
 The prediction problem is:
@@ -493,7 +495,7 @@ These features focus on **early-game control and mid-game transitions**, ensurin
 This prediction problem complements the overarching analysis question by providing a quantitative framework to test the relative impact of tempo and value objectives on win probabilities. The classification model will help verify if teams prioritizing tempo objectives are more likely to win, particularly in shorter games.
 
 
-### Baseline Model Report
+## Baseline Model
 
 #### Model Description
 The baseline model is a **Random Forest Classifier**, chosen for its robustness and ability to handle both categorical and numerical data without extensive preprocessing. The model predicts the **game result** (`Win` or `Loss`) based on selected game features, reflecting key dynamics in competitive League of Legends gameplay.
@@ -555,7 +557,7 @@ To ensure the model remains robust and its performance is valid:
 
 This baseline model establishes a strong foundation for refining predictions of game results in professional League of Legends matches. -->
 
-### Final Model Report
+## Final Model
 
 #### Features Added
 1. **`dragons_per_herald`**:
