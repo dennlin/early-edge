@@ -93,7 +93,7 @@ The data cleaning process ensured the dataset was free from missing values, irre
 | LOLTMNT99_132665  | TSC        | 2024 | 2024-01-05 15:03   | Unknown Team       | Blue   | Jarvan, Nocturne     | Karthus, Jax         | Win    | 31    | 20     | 60      | 2       | 0       | 8      | 35.4               |
 | LOLTMNT99_132665  | TSC        | 2024 | 2024-01-05 15:03   | Unknown Team       | Red    | Akshan, Neeko, Akali | Elise, Syndra        | Loss   | 20    | 31     | 23      | 3       | 1       | 8      | 35.4               |
 | LOLTMNT99_132755  | TSC        | 2024 | 2024-01-05 16:10   | Unknown Team       | Blue   | Nocturne, Kalista    | Aatrox, Lee Sin      | Win    | 24    | 8      | 54      | 2       | 1       | 9      | 34.9               |
-8          | 54          | 2           | 1           | 9          | 34.9                   |
+
 
 </div>
 
